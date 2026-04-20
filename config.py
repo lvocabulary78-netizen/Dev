@@ -13,7 +13,7 @@ import logging
 _logger = logging.getLogger(__name__)
 
 # ── Bot credentials ────────────────────────────────────────────────────────
-BOT_TOKEN: str = os.environ.get("BOT_TOKEN")
+BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "8732231617:AAGXOs_WxR7OAxk63LSEb9shfPs-Dxz_kls")
 if not BOT_TOKEN:
     _logger.critical(
         "BOT_TOKEN is not set!  "
