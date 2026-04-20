@@ -88,7 +88,7 @@ def receive_update():
 
 def run_webhook() -> None:
     """Production mode: webhook via Flask."""
-    render_url = os.environ.get("RENDER_APP_URL", "").rstrip("/")
+    render_url = os.environ.get("RENDER_APP_URL", "https://dev-pazd.onrender.com").rstrip("/")
     if not render_url:
         logger.critical(
             "RENDER_APP_URL is not set. "
