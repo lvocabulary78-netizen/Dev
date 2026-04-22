@@ -50,4 +50,4 @@ FUZZY_THRESHOLD: float = 0.82
 # ── Access control ──────────────────────────────────────────────────────────
 # Allow /startgame in private DM chats (one-person solo practice).
 # Set to True once you're comfortable opening the bot beyond group control.
-ALLOW_PRIVATE_GAMES: bool = true
+ALLOW_PRIVATE_GAMES: bool = True
